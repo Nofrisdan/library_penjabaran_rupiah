@@ -1,3 +1,6 @@
+<?php  
+
+class Library{
   private function penyebut($nilai)
     {
 
@@ -43,3 +46,8 @@
             return $hasil;
         }
     }
+  
+  
+}
+
+
