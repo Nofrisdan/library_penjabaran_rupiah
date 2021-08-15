@@ -3,14 +3,18 @@
 
 require("library.php");
 
-$library = new 
+$library = new Library();
 
-
+$result2 = "";
 if(isset($_POST['Angka']){
   
+  $result = $library->terbilang($_POST['Angka']);
   
-  
-  
+  if(!empty($result)){
+   
+    $result2 = $result;
+    
+  }
 }
 
 
