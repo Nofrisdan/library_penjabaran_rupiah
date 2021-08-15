@@ -32,19 +32,14 @@ class Library{
     }
 
 
-    public function terbilang()
+    public function terbilang($angka)
     {
-
-        if ($this->requestData->isAJAX()) {
-
-            $angka = $this->requestData->getVar("angka");
-            if ($angka < 0) {
+          if ($angka < 0) {
                 $hasil = "minus " . trim($this->penyebut($angka));
             } else {
                 $hasil = trim($this->penyebut($angka));
             }
             return $hasil;
-        }
     }
   
   
