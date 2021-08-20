@@ -17,6 +17,6 @@ git clone https://github.com/Nofrisdan/library_penjabaran_rupiah.git
 <img src="plugin/gambar1.png">
 
 ### Gambar 2
-<img src="plugin/gambar1.png">
+<img src="plugin/gambar2.png">
 
 
